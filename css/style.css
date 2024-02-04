@@ -345,7 +345,7 @@ h2.title span{
 	float: left;
 	margin-right: 12px;
 	margin-bottom: 20px;
-	width: 48%;
+	width: 88%;
 }
 .service-inner i{
 	font-size: 40px;
@@ -580,11 +580,11 @@ h2.title span{
 	margin-bottom: 40px;
 }
 .contact-box .form-group{
-	margin-bottom: 39px;
+	margin-bottom: 19px;
 }
 .contact-box label{
 	color: #09C3E7;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 	font-size: 18px;
 }
 
@@ -1028,3 +1028,33 @@ section.hScroll {
 	height: 100vw; width: 100vh; padding: 20px;
 	background: #000;
 }
+
+
+
+.portfolio-section {
+	width: 100%;
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+  }
+
+  .portfolio-text {
+	flex: 1;
+	padding: 0 20px;
+  }
+
+  .portfolio-text-inner {
+	flex: 1;
+	padding: 0 20px;
+  }
+
+  .portfolio-title {
+	font-size: 1.5rem;
+	margin-bottom: 10px;
+  }
+
+  .portfolio-image {
+	max-width: 30%;
+	height: max-auto;
+	border-radius: 14px;
+  }
