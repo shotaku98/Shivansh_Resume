@@ -157,6 +157,9 @@ h5{
 .section-padding{
 	padding: 100px 0px;
 }
+.section-padding-portfolio{
+	padding: 10px 0px;
+}
 p{
 	color: #696969;
 }
@@ -434,6 +437,14 @@ h2.title span{
 	font-size: 20px;
 	margin: 0%;
 }
+.port-title-addon-2{
+	color:  #09C3E7;
+	font-size: 13px;
+	margin-bottom: 60px;
+	align-items: left;
+	
+}
+
 .resume-title-addon-2{
 	color: #343333;
 	font-size: 13px;
@@ -1035,12 +1046,12 @@ section.hScroll {
 	width: 100%;
 	margin-bottom: 20px;
 	display: flex;
-	align-items: center;
   }
 
   .portfolio-text {
 	flex: 1;
-	padding: 0 20px;
+	padding: 20 20px;
+	max-width: 70%;
   }
 
   .portfolio-text-inner {
@@ -1049,12 +1060,19 @@ section.hScroll {
   }
 
   .portfolio-title {
-	font-size: 1.5rem;
-	margin-bottom: 10px;
+	font-size: 2.9rem;
+	box-shadow: #000;
+	margin-bottom: 50px;
   }
 
   .portfolio-image {
-	max-width: 30%;
-	height: max-auto;
+	max-width: 40%;
 	border-radius: 14px;
   }
+
+  .row_port{
+	flex: 1;
+	min-width: 200px; /* Set minimum width if needed */
+	margin: 99px; /* Adjust margins as per your requirement */
+	box-sizing: border-box;
+}
